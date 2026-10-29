@@ -1,0 +1,35 @@
+\section{Data Privacy and Security}\label{sec:privacy}
+
+\subsection{Legal basis}
+Processing of personal data in connection with AI is subject to Republic Act No.\ 10173 (Data Privacy Act of 2012), its Implementing Rules and Regulations, and National Privacy Commission issuances \citep{ra10173}. \cmo{} directs that confidential or sensitive materials must not be uploaded to unsecure public AI platforms and that standards for data handling, cybersecurity, and vendor compliance be institutionalized (Principle~3). The University treats privacy as a core design constraint; information-privacy research centers on individuals' desire to control data about themselves \citep{belanger2011}.
+
+\subsection{Data classes and handling rules}
+\begin{table}[ht]
+\centering
+\caption{Data classes and where they may be used with AI tools.}
+\small
+\begin{tabular}{@{}p{3.4cm}p{4.6cm}p{6cm}@{}}
+\toprule
+Class & Examples & Permitted AI use \\
+\midrule
+Public / non-personal & Published materials, own lecture notes, generic questions & Any tool (Tier~A). \\
+Internal & Draft policies, unpublished course materials, internal memos & Tier~A tools acceptable if no personal data and no confidentiality restriction; otherwise listed (Tier~B) tools. \\
+Personal data & Names, student numbers, contact details, grades, attendance, submitted work with identifiers & Only Tier~B/C tools with data-protection terms vetted by the DPO; de-identify wherever possible. \\
+Sensitive / confidential & Disciplinary, health, financial, or other sensitive personal information; exam content before use; unpublished research with restrictions & Not entered into external AI tools unless a Tier~C approval specifically permits it. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Practical rules}
+\begin{enumerate}
+  \item \textbf{De-identify first:} remove names, IDs, and other identifiers from student work or data before using general tools, where the purpose permits.
+  \item \textbf{Data minimization and purpose limitation:} share only what the task requires.
+  \item \textbf{Student work as intellectual property:} faculty do not upload identifiable student work to a tool that retains or trains on inputs without the student's informed consent or a vetted institutional arrangement.
+  \item \textbf{Settings and terms:} use available privacy settings (e.g., opt out of training on inputs); consult the Tier list for known terms.
+  \item \textbf{Transparency to students:} when students must use a course-provided AI tool, tell them what data is collected, why, and for how long; offer a non-AI or alternative path where feasible.
+  \item \textbf{Incident reporting:} suspected disclosure of personal data to an AI tool is reported promptly to the DPO for assessment under applicable breach-notification rules.
+  \item \textbf{Security hygiene:} protect accounts, avoid pasting credentials or keys into prompts, and review permissions granted to AI agents (e.g., access to email, files, or code repositories) using least privilege.
+\end{enumerate}
+
+\subsection{AI agents with system access}
+Agents that can act on files, mail, calendars, learning-management systems, or code require extra care: grant minimum permissions, review actions before irreversible steps, and keep a record of what the agent was allowed to do. Agents with access to personal or confidential University data are Tier~B or C.
