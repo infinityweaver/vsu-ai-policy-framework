@@ -22,3 +22,13 @@ The repository is a process record and collaboration space. It does not itself c
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for suggested contribution and review practices. Use pull requests for substantive edits so reviewers can comment on changes and the decision trail remains visible.
+
+## Changelog
+
+### 2026-10-29
+
+- Repository created (initial commit).
+- Added the policy framework process documentation scaffold (docs and templates).
+- Added .github/CODEOWNERS (owner @infinityweaver), a PR template, and an issue template.
+- Updated CONTRIBUTING.md with how to propose changes and a note on roles and merge policy.
+- Applied repository ruleset "Protect main" (PR required, 1 approval, code-owner review, stale approvals dismissed, force pushes and deletion blocked; owner bypass only).
