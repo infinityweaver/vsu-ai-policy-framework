@@ -14,6 +14,8 @@ The repository is a process record and collaboration space. It does not itself c
 ## Draft framework (LaTeX)
 
 - [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; its Appendix C lists the sources consulted.
+- [`published/VSU-AI-Policy-Framework-DRAFT.pdf`](published/VSU-AI-Policy-Framework-DRAFT.pdf) is the compiled draft for easy reading.
+- [`references/`](references/) lists the sources, with open-access PDFs included and the rest linked from official sources.
 - Build with `cd framework`, then `latexmk -pdf main.tex` (or `pdflatex`, `bibtex`, `pdflatex` twice).
 
 ## Working principles
@@ -43,7 +45,7 @@ Entries are clustered by date (YYYY-MM-DD), in chronological order. Update this 
 - Aligned Tier C examples, thesis disclosure, assessment-redesign, detector, and transition provisions with CMO No. 21 (Sec. 8, 9, 11, 12, 15--18, 30).
 - Added Jomari Joseph A. Barrera (Assistant Professor I, DCST) as contributor in the title block.
 - Moved abbreviations and terms to a new Section 1, "Terms and Abbreviations", placed before the policy sections; merged the former Appendix C glossary into it (adding UAC, UADCO, BOR, TWG, HEI, working days, meaningful human review, AI Use Declaration). The sources note is now Appendix C.
-
+- Added the compiled draft PDF in `published/` and a `references/` folder: three CC BY open-access PDFs (Holden 2021, Yu and Guo 2023, Morales-García et al. 2024) are included; all other sources are linked to their official DOIs and not redistributed.
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for suggested contribution and review practices. Use pull requests for substantive edits so reviewers can comment on changes and the decision trail remains visible.
