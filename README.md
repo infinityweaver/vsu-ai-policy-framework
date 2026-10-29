@@ -13,7 +13,7 @@ The repository is a process record and collaboration space. It does not itself c
 
 ## Draft framework (LaTeX)
 
-- [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; its Appendix D lists the sources consulted.
+- [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; its Appendix C lists the sources consulted.
 - Build with `cd framework`, then `latexmk -pdf main.tex` (or `pdflatex`, `bibtex`, `pdflatex` twice).
 
 ## Working principles
@@ -42,6 +42,7 @@ Entries are clustered by date (YYYY-MM-DD), in chronological order. Update this 
 - Settled with the policy owner: approval route (University Academic Council and University Administrative Council concurrently, then Office of the President to the Board of Regents); no separate Steering Committee (duties rest with the TWG); Level 2 remains the default and an AI Use Declaration is mandatory with every submission; review targets set to 25 working days (Tier B) and 50 working days (Tier C), excluding holidays, special non-working days, and work-suspension days.
 - Aligned Tier C examples, thesis disclosure, assessment-redesign, detector, and transition provisions with CMO No. 21 (Sec. 8, 9, 11, 12, 15--18, 30).
 - Added Jomari Joseph A. Barrera (Assistant Professor I, DCST) as contributor in the title block.
+- Moved abbreviations and terms to a new Section 1, "Terms and Abbreviations", placed before the policy sections; merged the former Appendix C glossary into it (adding UAC, UADCO, BOR, TWG, HEI, working days, meaningful human review, AI Use Declaration). The sources note is now Appendix C.
 
 ## Contributing
 
