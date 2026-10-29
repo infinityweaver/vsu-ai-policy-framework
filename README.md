@@ -41,6 +41,7 @@ Entries are clustered by date (YYYY-MM-DD), in chronological order. Update this 
 - Removed all `[Verify]`/`[CITATION NEEDED]` markers and the `\todoverify` macro; rewrote Appendix D as a short "Sources Consulted" note.
 - Settled with the policy owner: approval route (University Academic Council and University Administrative Council concurrently, then Office of the President to the Board of Regents); no separate Steering Committee (duties rest with the TWG); Level 2 remains the default and an AI Use Declaration is mandatory with every submission; review targets set to 25 working days (Tier B) and 50 working days (Tier C), excluding holidays, special non-working days, and work-suspension days.
 - Aligned Tier C examples, thesis disclosure, assessment-redesign, detector, and transition provisions with CMO No. 21 (Sec. 8, 9, 11, 12, 15--18, 30).
+- Added Jomari Joseph A. Barrera (Assistant Professor I, DCST) as contributor in the title block.
 
 ## Contributing
 
