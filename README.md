@@ -22,3 +22,15 @@ The repository is a process record and collaboration space. It does not itself c
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for suggested contribution and review practices. Use pull requests for substantive edits so reviewers can comment on changes and the decision trail remains visible.
+
+## Changelog
+
+Entries are clustered by date (YYYY-MM-DD) in chronological order. Update this section whenever the repository or the policy framework document changes.
+
+### 2026-10-29
+
+- Repository created (public).
+- Initial scaffold added: README, CONTRIBUTING, docs/development-process, decision-log, and templates.
+- Collaborator @vsudcst invited.
+- `Protect main` ruleset applied.
+- Changelog section added to README.
