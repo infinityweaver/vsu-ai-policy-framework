@@ -1,0 +1,76 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\usepackage[round]{natbib}
+
+\setlist{itemsep=2pt,topsep=4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.2}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small VSU AI Policy Framework}
+\fancyhead[R]{\small \textcolor{red!70!black}{\textbf{DRAFT for panel review --- not approved policy}}}
+\fancyfoot[C]{\small\thepage}
+
+\newcommand{\vsu}{VSU}
+\newcommand{\todoverify}[1]{\textcolor{red!70!black}{[\textbf{Verify:} #1]}}
+\newcommand{\provision}[1]{\textbf{#1}}
+\newcommand{\cmo}{CMO No.\ 21, s.\ 2026}
+\newcommand{\rmo}{CHED Regional Memorandum No.\ 318, s.\ 2026}
+
+\title{\textbf{Visayas State University\\Artificial Intelligence Policy Framework}\\[4pt]
+\large Enabling responsible, effective use of AI in instruction, research, and administration}
+\author{Working draft prepared for review by the policy development panel}
+\date{Draft v0.1 --- \today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\begin{center}
+\fbox{\parbox{0.92\textwidth}{\textbf{Status of this document.} This is a \textbf{DRAFT for panel review}. It is not approved policy and has no binding effect until formally approved and issued by the competent university authority. Citations and statements of national policy are marked for verification where they could not be checked against source documents (see Appendix~\ref{app:verification}).}}
+\end{center}
+
+\vspace{4pt}
+\input{sections/00-executive-summary}
+
+\tableofcontents
+\newpage
+
+\input{sections/01-purpose-scope-basis}
+\input{sections/02-principles}
+\input{sections/03-governance}
+\input{sections/04-faculty-enablement}
+\input{sections/05-student-learning}
+\input{sections/06-academic-integrity}
+\input{sections/07-data-privacy-security}
+\input{sections/08-equity-accessibility-literacy}
+\input{sections/09-research-authorship}
+\input{sections/10-tool-approval}
+\input{sections/11-implementation}
+
+\appendix
+\input{sections/appendix-a-declarations}
+\input{sections/appendix-b-quick-reference}
+\input{sections/appendix-c-glossary}
+\input{sections/appendix-d-verification}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

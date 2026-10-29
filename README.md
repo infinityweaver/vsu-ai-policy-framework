@@ -11,6 +11,11 @@ The repository is a process record and collaboration space. It does not itself c
 - [Panel feedback template](templates/panel-feedback.md) captures comments and dispositions consistently.
 - [Decision log](docs/decision-log.md) records significant decisions and their status.
 
+## Draft framework (LaTeX)
+
+- [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; see its Appendix D for verification gaps.
+- Build with `cd framework`, then `latexmk -pdf main.tex` (or `pdflatex`, `bibtex`, `pdflatex` twice).
+
 ## Working principles
 
 - Keep drafts, deliberations, feedback, and decisions traceable; identify the document version under review.
