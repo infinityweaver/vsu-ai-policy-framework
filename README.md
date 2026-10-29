@@ -13,7 +13,7 @@ The repository is a process record and collaboration space. It does not itself c
 
 ## Draft framework (LaTeX)
 
-- [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; see its Appendix D for verification gaps.
+- [`framework/`](framework/) contains the modular LaTeX draft of the VSU AI Policy Framework (`main.tex`, `sections/`, `references.bib`). It is a **draft for panel review, not approved policy**; its Appendix D lists the sources consulted.
 - Build with `cd framework`, then `latexmk -pdf main.tex` (or `pdflatex`, `bibtex`, `pdflatex` twice).
 
 ## Working principles
@@ -36,6 +36,11 @@ Entries are clustered by date (YYYY-MM-DD), in chronological order. Update this 
 - Revised the draft for precision: softened or marked unverified claims as `[CITATION NEEDED]`, clarified the AI-use level scale and default, expanded abbreviations.
 - Added this Changelog section.
 - Recorded the Technical Working Group for AI Policy and Governance, led by Dr. Magdalene C. Unajan, as the policy owner in the framework's title block, authority section, roles table, and document control.
+- Resolved all open items in the framework: checked CHED Memorandum Order No. 21, s. 2026 and CHED Regional Memorandum No. 318, s. 2026 (scanned PDFs) and the cited journal PDFs; added both memoranda to `references.bib` and replaced the pending alignment table with a provision-by-provision map to CMO No. 21.
+- Removed unverified claims and citations (Kasneci, Liang, Weber-Wulff, Perkins, Dwivedi 2023, UNESCO, Feuerriegel) because the sources are not in the reference folder; added verified sources (Yu 2023, Morales-García 2024, Holden 2021, Tarafdar 2014) and confirmed Chan 2023, Chan and Hu 2023, and Belanger and Crossler 2011.
+- Removed all `[Verify]`/`[CITATION NEEDED]` markers and the `\todoverify` macro; rewrote Appendix D as a short "Sources Consulted" note.
+- Settled with the policy owner: approval route (University Academic Council and University Administrative Council concurrently, then Office of the President to the Board of Regents); no separate Steering Committee (duties rest with the TWG); Level 2 remains the default and an AI Use Declaration is mandatory with every submission; review targets set to 25 working days (Tier B) and 50 working days (Tier C), excluding holidays, special non-working days, and work-suspension days.
+- Aligned Tier C examples, thesis disclosure, assessment-redesign, detector, and transition provisions with CMO No. 21 (Sec. 8, 9, 11, 12, 15--18, 30).
 
 ## Contributing
 
