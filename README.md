@@ -35,6 +35,7 @@ Entries are clustered by date (YYYY-MM-DD), in chronological order. Update this 
 - Added `.gitignore` for LaTeX build artifacts and a README link to the framework.
 - Revised the draft for precision: softened or marked unverified claims as `[CITATION NEEDED]`, clarified the AI-use level scale and default, expanded abbreviations.
 - Added this Changelog section.
+- Recorded the Technical Working Group for AI Policy and Governance, led by Dr. Magdalene C. Unajan, as the policy owner in the framework's title block, authority section, roles table, and document control.
 
 ## Contributing
 
